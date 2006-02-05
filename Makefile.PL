@@ -8,7 +8,7 @@ $preq{"Win32::API"} = "0.20" if $^O =~ /Win32/;
 
 WriteMakefile(
     'NAME'          => 'Tk::HideCursor',
-    'VERSION_FROM'  => 'HideCursor.pm',
+    'VERSION_FROM'  => 'lib/Tk/HideCursor.pm',
     'PREREQ_PM'     => \%preq,
     'ABSTRACT'      => 'Hide the cusror in your Tk widget',
     'AUTHOR'        => 'Gavin Brock <gbrock@cpan.org>',
